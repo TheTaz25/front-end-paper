@@ -1,0 +1,22 @@
+main {
+  &.admin {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+    .top {
+      width: 100%;
+    }
+
+    section {
+      flex-grow: 1;
+      width: calc(50% - 4rem);
+      margin: 0 1rem 0 1rem;
+
+      &.otp .otp-container {
+        min-height: 300px;
+        max-height: 40vh;
+      }
+    }
+  }
+}

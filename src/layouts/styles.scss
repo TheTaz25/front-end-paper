@@ -1,0 +1,15 @@
+main.main {
+  height: 100%;
+}
+
+nav.main {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 16px);
+  padding: 8px 16px;
+}
+
+main.layout-pre-auth {
+  height: 100%;
+}

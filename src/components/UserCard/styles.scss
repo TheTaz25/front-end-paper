@@ -1,0 +1,16 @@
+.card-user {
+  max-width: calc(300px - 16px);
+  min-width: calc(300px - 16px);
+  
+  flex: 1 0 0;
+  margin-right: 16px;
+
+  .card-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-states {
+    justify-content: space-between;
+  }
+}

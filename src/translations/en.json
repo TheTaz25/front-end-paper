@@ -1,0 +1,65 @@
+{
+  "register": {
+    "title": "Join the endeavor!",
+    "titleSubLine": "If you don't have an account yet, create one now!",
+    "confirmPassword": "Confirm Password",
+    "registrationCode": "Registration Code",
+    "registrationCodeDescription": "In order to register, you need a code provided by the admin / DM!"
+  },
+  "login": {
+    "title": "Welcome back, adventurer",
+    "titleSubLine": "You need your passphrase to start playing!"
+  },
+  "common": {
+    "username": "Username",
+    "password": "Password",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "logout": "Log Out"
+  },
+  "homepage": {
+    "scrollTop": "Scroll to Top",
+    "title": "Thy Mighty Paper",
+    "login": "Login",
+    "register": "Register",
+    "goToApp": "Start the App"
+  },
+  "admin": {
+    "userAdmin": "User Administration",
+    "appUsers": "Application Users",
+    "regOtp": "Registration One-Time-Passwords",
+    "pwOtp": "Password Reset One-Time-Passwords",
+    "admin": "Admin",
+    "blocked": "Blocked",
+    "modal": {
+      "continueQuestion": "Do you want to continue?",
+      "changeAdminState": {
+        "promote": "Promote",
+        "demote": "Demote",
+        "titlePromote": "Promoting user as an administrator",
+        "titleDemote": "Demoting user from his administrator privileges",
+        "bodyPromote": "You are about to grant administrator rights to {{user}}. This user will be able to issue One Time Tokens, manage administrator rights of other users, block users or even delete them.",
+        "bodyDemote": "You are about to remove administrator privileges from {{user}}. The user will still be able to user the software as intended, but will be missing any necessary rights to manage e.g. users."
+      },
+      "changeBlockState": {
+        "block": "Block User",
+        "unblock": "Unblock User",
+        "titleBlock": "Block User",
+        "titleUnblock": "Unblock User",
+        "bodyBlock": "You are about to block {{user}}. The user will not be able to log into this appliation anymore until the block has been removed.",
+        "bodyUnblock": "You are about to unblock {{user}}. After this operation, the user will be able to log into the application again and use its functionality again."
+      }
+    }
+  },
+  "menu": {
+    "self": {
+      "description": "Change your account details"
+    },
+    "admin": {
+      "user": {
+        "label": "User Administration",
+        "description": "Manage your Users!"
+      }
+    }
+  }
+}
